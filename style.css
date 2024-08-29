@@ -74,10 +74,11 @@ body{
 #nav-bar li a.active::after,
 #nav-bar li a:hover::after{
     content: "";
-    width: 35%;
+    width: 30%;
     height: 3px;
     color: #810808;
     position: absolute;
+    background-color: #088178;
     bottom: -1px;
     left: 23px;
 }
