@@ -147,6 +147,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
 #feature .fe-box:nth-child(2) h6{
     background-color: #cdebbc;
@@ -162,4 +163,20 @@ body{
 }
 #feature .fe-box:nth-child(6) h6{
     background-color: #ecdccb;
+}
+
+#products1{
+    text-align: center;
+}
+
+#products1 .pro-products{
+    width: 23%;
+    min-width: 250px;
+    border: 1px solid #cce7d0;
+    padding: 10px 12px;
+}  
+#products1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+  
 }
