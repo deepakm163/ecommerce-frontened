@@ -165,27 +165,19 @@ body{
     background-color: #ecdccb;
 }
 
-#products1 {
+#products1{
     text-align: center;
 }
 
-#products1 .pro-products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; /* Optional: To add spacing between products */
-}
-
-#products1 .product-item {
+#products1 .pro-products{
     width: 23%;
     min-width: 250px;
     border: 1px solid #cce7d0;
     padding: 10px 12px;
-    box-sizing: border-box;
+    wrap: hard
+}  
+#products1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+  
 }
-
-#products1 .pro img {
-    width: 100%;
-    border-radius: 20px;
-}
-
