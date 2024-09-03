@@ -282,7 +282,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    text-align: center;
+    padding-top: 20px;
     
 }
 
@@ -293,11 +293,16 @@ body{
     align-items: flex-start;
     padding: 30px;
     background-image: url("img/banner/b17.jpg");
-    width: 580px;
+    min-width: 580px;
     height: 40vh;
     background-size: cover;
     background-position: center;
     margin-bottom: 30px;
+}
+#sm-banner .banner-box2{
+    
+    background-image: url("img/banner/b10.jpg");
+    
 }
 #sm-banner h4{
     color: white;
@@ -319,7 +324,7 @@ body{
 }
 button.normal2 {
 
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
     padding: 11px 28px;
     color: #fdfcfc;
@@ -332,4 +337,138 @@ button.normal2 {
 }
 #sm-banner .banner-box:hover button{
     background-color: #088178;
+}
+
+#text-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+#text-banner .sale{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    background-image: url("img/banner/b7.jpg");
+    width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#text-banner .sale1{
+   background-image: url("img/banner/b4.jpg");
+}
+#text-banner .sale2{
+   background-image: url("img/banner/b18.jpg");
+}
+#text-banner .sale h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+}
+#text-banner .sale span{
+    font-size: 12px;
+    font-weight: 700;
+    color: red;
+}
+#newsleter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   background-image: url("img/banner/b14.jpg");
+   background-repeat: no-repeat;
+   background-position: 20% 30%;
+   background-color: #041e42;
+}
+#newsleter h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+#newsleter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+#newsleter p span{
+   color: #dfa810;
+}
+#newsleter .form{
+    display: flex;
+    width: 40%;
+}
+#newsleter .form input{
+    height: 3.250rem;
+    width: 250px;
+    padding: 0 1.25rem;
+   
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsleter button{
+    background-color: #088178;
+    color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    white-space: nowrap;
+}
+#details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+} 
+#details .col{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  
+}
+#details h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+} 
+#details p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+} 
+#details a {
+    font-size: 13px;
+    text-decoration: none  ;
+    margin-bottom: 10px;
+    color: #222;
+    transition: 0.3s;
+} 
+#details .logo{
+    margin-bottom: 10px;
+}
+
+#details .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#details .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+#details .install img{
+    margin: 10px 0 15px 0;
+}
+#details .col a:hover{
+    color: #088178;
+}
+#details .follow i:hover{
+    color: #088178;
 }
