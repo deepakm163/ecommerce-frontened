@@ -558,6 +558,7 @@ button.normal2 {
     .section-p1 {
         padding: 40px 40px;
     }
+
     #nav-bar {
         display: flex;
         flex-direction: column;
@@ -610,20 +611,23 @@ button.normal2 {
     }
 
     #hero {
-       height: 70vh;
+        height: 70vh;
         width: 100%;
-      background-position: top 30% right 30%; 
+        background-position: top 30% right 30%;
     }
+
     #feature {
-       
+
         justify-content: center;
-       
+
     }
+
     #feature .fe-box {
-       
+
         margin: 15px 15px;
-       
+
     }
+
     #products1 .pro-products {
         justify-content: center;
     }
@@ -631,18 +635,121 @@ button.normal2 {
     #products1 .pro {
         margin: 15px;
     }
+
     #banner {
         height: 20vh;
-       }
-       #sm-banner .banner-box {
-        
+    }
+
+    #sm-banner .banner-box {
+
         min-width: 100%;
         height: 30vh;
     }
+
     #text-banner {
-       padding: 0 40px;
+        padding: 0 40px;
     }
+
     #newsleter .form {
-       width: 80%;
+        width: 80%;
     }
 }
+    @media (max-width:477px) {
+        #header {
+            padding: 0px 0px;
+        }
+
+        #hero {
+            padding: 0 10px;
+        }
+
+        #hero {
+
+            padding: 0 18px;
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+        }
+
+        #hero h2 {
+            font-size: 30px;
+        }
+
+        #hero h1 {
+            font-size: 45px;
+        }
+
+        #hero button {
+            padding: 11px 48px 14px 46px;
+            border-radius: 5px;
+        }
+
+        #feature {
+            justify-content: space-between;
+        }
+
+        #feature .fe-box {
+            width: 120px;
+        }
+
+        #feature .fe-box h6 {
+
+            font-size: 10px;
+        }
+
+
+        #products1 .pro {
+            width: 100%;
+        }
+
+        #products1 h2 {
+            font-size: 31px;
+
+        }
+
+        #banner {
+            position: relative;
+        }
+
+        #banner .section-m1 {
+            margin: 0px;
+        }
+
+        #banner h2 {
+            padding: 9px 0;
+            font-size: 17px;
+        }
+
+        #banner button.normal {
+            font-size: 12px;
+            font-weight: 589;
+            position: absolute;
+            top: 115px;
+        }
+
+        #products1 h1 {
+            font-size: 45px;
+        }
+
+        #text-banner .sale {
+
+            width: 100%;
+
+        }
+
+        #newsleter {
+            position: relative;
+        }
+
+        .form button.normal {
+            font-size: 11px;
+            font-weight: 440;
+
+        }
+
+        #newsleter .form {
+            width: 100%;
+        }
+        
+    }
